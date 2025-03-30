@@ -5,6 +5,11 @@ import PyPDF2 as pdf
 import streamlit as st
 import pandas as pd
 
+import os
+os.system("pip install google-generativeai")
+import google.generativeai as genai
+
+
 # Configure API Key
 genai.configure(api_key="AIzaSyCsObYuzbzMTAf2MmME4n8xNRwvoOJrbNw")
 
